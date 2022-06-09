@@ -1,0 +1,30 @@
+<div className="container">
+    <h2 id="rec-title">here you can see some police stations and shelters in your region </h2>
+
+    <table className="table-fill">
+        <thead>
+            <tr>
+                <th className="text-left">Region</th>
+                <th className="text-left">Address</th>
+                <th className="text-left">Type</th>
+            </tr>
+        </thead>
+        <tbody className="table-hover">
+            <tr>
+                <td className="text-left">example</td>
+                <td className="text-left">example</td>
+                <td className="text-left">example</td>
+            </tr>
+        </tbody>
+
+        <!-- <tbody className="table-hover">
+            {recommendations.map((recommendation) => (
+                <tr className={`${recommendation.region == (AuthHelper.isLogged() && AuthHelper.getUser().region) ? 'current' : ''}`}>
+                    <td className="text-left">{recommendation.region}</td>
+                    <td className="text-left">{recommendation.address}</td>
+                    <td className="text-left">{recommendation.type}</td>
+                </tr>
+            ))}
+        </tbody> -->
+    </table>
+</div>
